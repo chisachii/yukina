@@ -8,7 +8,7 @@ const YukinaConfig: Configuration = {
 
   description: "CPP IA 1",
 
-  site: "https://kamirui.vercel.app",
+  site: "https://rui-portfolio.vercel.app/",
 
   locale: "en", // set for website language and date format
 
