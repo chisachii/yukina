@@ -1,10 +1,10 @@
 ---
-title: HOW? do I bring it into existance
+title: WHO am I?
 published: 2026-01-05
 description: A simple example of a Markdown blog post.
-tags: [Schoolwork, How]
+tags: [Schoolwork, Who]
 category: CPP IA2
 author: chisachii
-cover: /1920px-Saki_48_trained_art.webp
+cover: /saki_34_trained_art.png
 draft: false
 ---

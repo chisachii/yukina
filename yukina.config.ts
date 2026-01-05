@@ -3,7 +3,7 @@ import type { Configuration } from "./src/types/config";
 
 const YukinaConfig: Configuration = {
   title: "see you in sekai",
-  subTitle: "Ruixuan's Portfolio",
+  subTitle: "Rui's Portfolio",
   brandTitle: "Rui",
 
   description: "CPP IA 1",
