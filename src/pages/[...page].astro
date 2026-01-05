@@ -3,9 +3,12 @@
 import Main from "../layouts/MainLayout.astro";
 import PostCard from "../components/PostCard.astro";
 import Pagination from "../components/controllers/Pagination.astro";
+import Sidebar from "../components/SideBar.astro";
 // Utils
 import type { PaginateFunction } from "astro";
 import { GetSortedPosts } from "../utils/content";
+import YukinaConfig from "../../yukina.config";
+import { GetCategories, GetTags } from "../utils/content";
 
 export async function getStaticPaths({
   paginate,
@@ -19,11 +22,20 @@ const { page } = Astro.props;
 ---
 
 <Main>
-  <div class="space-y-8">
-    <div class="w-full space-y-4">
-      {
-        page.data.map((entry, index) => (
-          <div
+  <div class="w-60 fixed top-0 left-0 h-screen">
+    <Sidebar
+      name={YukinaConfig.username}
+      role={YukinaConfig.sign}
+      avatar={YukinaConfig.avatarUrl}
+      links={YukinaConfig.socialLinks}
+    />
+  </div>
+    
+
+    <!-- Main content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:ml-[15rem] space-y-8">
+      {page.data.map((entry, index) => (
+        <div
             class="onload-animation"
             style={`animation-delay: calc(var(--onload-animation-delay) + ${index + 1} * var(--onload-animation-interval));`}
           >
@@ -42,14 +54,13 @@ const { page } = Astro.props;
           </div>
         ))
       }
-    </div>
-    <Pagination
-      class="onload-animation"
-      lastPage={page.lastPage}
-      current={page.currentPage}
-      prevURL={page.url.prev}
-      nextURL={page.url.next}
-      style={`animation-delay: calc(var(--onload-animation-delay) + ${page.data.length + 1} * var(--onload-animation-interval));`}
-    />
-  </div>
-</Main>
+      <Pagination
+       class="onload-animation"
+       lastPage={page.lastPage}
+       current={page.currentPage}
+       prevURL={page.url.prev}
+       nextURL={page.url.next}
+       style={`animation-delay: calc(var(--onload-animation-delay) + ${page.data.length + 1} * var(--onload-animation-interval));`}
+     />
+   </div>
+  </Main>

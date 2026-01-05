@@ -2,13 +2,13 @@ import I18nKeys from "./src/locales/keys";
 import type { Configuration } from "./src/types/config";
 
 const YukinaConfig: Configuration = {
-  title: "Yukina",
-  subTitle: "Yukina Template Demo Site",
-  brandTitle: "Yukina",
+  title: "see you in sekai",
+  subTitle: "Ruixuan's Portfolio",
+  brandTitle: "Rui",
 
-  description: "Demo Site",
+  description: "CPP IA 1",
 
-  site: "https://yukina-blog.vercel.app",
+  site: "https://kamirui.vercel.app",
 
   locale: "en", // set for website language and date format
 
@@ -18,34 +18,30 @@ const YukinaConfig: Configuration = {
       href: "/",
     },
     {
-      nameKey: I18nKeys.nav_bar_archive,
-      href: "/archive",
-    },
-    {
       nameKey: I18nKeys.nav_bar_about,
       href: "/about",
     },
     {
       nameKey: I18nKeys.nav_bar_github,
-      href: "https://github.com/WhitePaper233/yukina",
+      href: "https://github.com/chisachii",
     },
   ],
 
-  username: "WhitePaper 白芷",
-  sign: "Ad Astra Per Aspera.",
-  avatarUrl: "https://s2.loli.net/2025/01/25/FPpTrQSezM8ivbl.webp",
+  username: "@chisachii",
+  sign: "the place where dreams begin ☆",
+  avatarUrl: "https://i.pinimg.com/736x/a2/cf/c3/a2cfc3703834d4d1f3a31261322a02e1.jpg",
   socialLinks: [
     {
       icon: "line-md:github-loop",
-      link: "https://github.com/WhitePaper233",
+      link: "https://github.com/chisachii",
     },
     {
-      icon: "mingcute:bilibili-line",
-      link: "https://space.bilibili.com/22433608",
+      icon: "mingcute:linkedin-line",
+      link: "https://linkedin.com/in/heidiyungruixuan",
     },
     {
-      icon: "mingcute:netease-music-line",
-      link: "https://music.163.com/#/user/home?id=125291648",
+      icon: "mingcute:instagram-line",
+      link: "https://www.instagram.com/ruixuannnnn_/",
     },
   ],
   maxSidebarCategoryChip: 6, // It is recommended to set it to a common multiple of 2 and 3
@@ -54,14 +50,14 @@ const YukinaConfig: Configuration = {
   maxFooterTagChip: 24,
 
   banners: [
-    "https://s2.loli.net/2025/01/25/PBvHFjr5yDu6t4a.webp",
-    "https://s2.loli.net/2025/01/25/6bKcwHZigzlM4mJ.webp",
-    "https://s2.loli.net/2025/01/25/H9WgEK6qNTcpFiS.webp",
-    "https://s2.loli.net/2025/01/25/njNVtuUMzxs81RI.webp",
-    "https://s2.loli.net/2025/01/25/tozsJ8QHAjFN3Mm.webp",
-    "https://s2.loli.net/2025/01/25/Pm89OveZq7NWUxF.webp",
-    "https://s2.loli.net/2025/01/25/UCYKvc1ZhgPHB9m.webp",
-    "https://s2.loli.net/2025/01/25/JjpLOW8VSmufzlA.webp",
+    "https://static.wikitide.net/projectsekaiwiki/thumb/b/b7/Saki_40_trained_art.png/1920px-Saki_40_trained_art.png",
+    "https://static.wikitide.net/projectsekaiwiki/thumb/a/a3/Saki_28_trained_art.png/1920px-Saki_28_trained_art.png",
+    "https://static.wikitide.net/projectsekaiwiki/thumb/d/d7/Saki_23_trained_art.png/1920px-Saki_23_trained_art.png",
+    "https://static.wikitide.net/projectsekaiwiki/thumb/a/a0/Saki_21_trained_art.png/1920px-Saki_21_trained_art.png",
+    "https://static.wikitide.net/projectsekaiwiki/thumb/6/62/Saki_16_trained_art.png/1920px-Saki_16_trained_art.png",
+    "https://static.wikitide.net/projectsekaiwiki/thumb/3/30/Saki_10_trained_art.png/1920px-Saki_10_trained_art.png",
+    "https://static.wikitide.net/projectsekaiwiki/thumb/e/e0/Saki_9_trained_art.png/1920px-Saki_9_trained_art.png",
+    "https://static.wikitide.net/projectsekaiwiki/thumb/4/4a/Saki_41_trained_art.png/1920px-Saki_41_trained_art.png",
   ],
 
   slugMode: "HASH", // 'RAW' | 'HASH'
