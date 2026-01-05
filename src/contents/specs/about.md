@@ -1,5 +1,7 @@
-# Special thanks to:
+# About me... *!!*
 
-- [Hexo Shoka theme](https://github.com/amehime/hexo-theme-shoka) for providing design inspiration
+Hey! I'm Ruixuan, better known online as @chisachii. I'm a student at Ngee Ann Polytechnic studying **Tourism and Resort Management**, looking to expand in the arts and culture scene. I grew up with music, arts, and anime, and going to concerts, musicals, as well as conventions have shaped a huge part of who I am. I'm hoping to further my studies in the University of Surrey by studying **Sociology** in **culture** and **inclusivity** there, and to eventually pursue my dreams as an **Accessibility Consultant in Arts & Leisure**.
 
-- [Astro Fuwari template](https://github.com/saicaca/fuwari) for providing the main design concept and part of the implementation
+I believe that every person has the rights to entertainment and enjoyment. No matter if you're able-bodied, or need special arrangements, no one should be deprived of the right to enjoy themselves in spaces such as Theme Parks, Theatres, or even Convention Halls.
+
+I'm fairly involved in the Arts Scene in Singapore, and in my time off you can find me either thrifting at **Haji Lane**, watching yet another **Locally-produced Play**, or at any **Artist Alleys** or **Anime Conventions** in Central Singapore. Other than that I also spend my time either playing RPG games, datamining game assets for public use, or coding websites similar to these.

@@ -4,6 +4,7 @@ published: 2022-08-01
 description: This post demonstrates how to include embedded video in a blog post.
 tags: [Example, Video]
 category: Examples
+cover: /public/Saki_37_art.png
 draft: false
 ---
 
