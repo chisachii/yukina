@@ -5,6 +5,6 @@ description: A simple example of a Markdown blog post.
 tags: [Schoolwork, Who]
 category: CPP IA2
 author: chisachii
-cover: /saki_34_trained_art.png
+cover: /Saki_34_trained_art.png
 draft: false
 ---
